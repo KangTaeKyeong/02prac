@@ -15,7 +15,7 @@ sed -i 's/username_here/admin/g' /var/www/html/wp-config.php
 sed -i 's/password_here/It12345!/g' /var/www/html/wp-config.php
 sed -i 's/localhost/mydb.ckvfjfutrkfo.ap-northeast-2.rds.amazonaws.com/g' /var/www/html/wp-config.php
 cat > /var/www/html/health.html << EOF
-<html><body><h1>SDKIM WEB SERVER _ health </h1></body></html>
+<html><body><h1>kang WEB SERVER _ health </h1></body></html>
 EOF
 systemctl enable httpd
 systemctl start httpd
